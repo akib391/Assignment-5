@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>HUNGRY MONSTER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="container mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <h3>Hungry Monster</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#">Food</a>
+                        <a class="nav-link active" href="#" >Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="search-box my-5">
+            <input id="search-food" type="text" class="form-control" placeholder="Search...">
+            <button onclick="searchFoods()" class="btn btn-success search-btn">Search</button>
+        </div>
+        <div class="">
+            <div id="food-container" class="row search-result mx-auto px-4">
+
+            </div>
+        </section>
+        <h3 id="error" class="text-danger"></h3>
+        <div id="type" class="text-center">
+        </div>
+
+        <script src="app.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

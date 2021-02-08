@@ -1,0 +1,44 @@
+.form-control {
+  background-color: rgb(216, 238, 245);
+  padding: 22px;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  border-radius: 10px;
+  padding: 9px 20px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.search-box {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.foodPicture img {
+  width: 210px;
+}
+.foodPicture {
+  color: black;
+}
+.cardInside {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 15px 5px;
+}
+.ingredients img {
+  width: 350px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.pic{
+  height: 70px;
+  width: 70px;
+}
